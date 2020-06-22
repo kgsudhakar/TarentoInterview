@@ -3,11 +3,12 @@ package TraverseDAG;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Node representation of the graph.
+ */
 public class Node {
     private final String name;
     private final List<Node> children;
-
-    private List<String> childrenPaths;
 
     public Node(final String name) {
         this.name = name;
